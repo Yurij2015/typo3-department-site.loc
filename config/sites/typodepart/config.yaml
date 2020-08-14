@@ -1,0 +1,23 @@
+base: /
+baseVariants:
+  -
+    base: www.localhost
+    condition: 'applicationContext == "Production"'
+errorHandling: {  }
+languages:
+  -
+    title: DepartmentSite
+    enabled: true
+    base: /
+    typo3Language: ru
+    locale: ru_RU
+    iso-639-1: ru
+    websiteTitle: ''
+    navigationTitle: ''
+    hreflang: ''
+    direction: ''
+    flag: ru
+    languageId: '0'
+rootPageId: 1
+routes: {  }
+websiteTitle: 'Сайт кафедры ВУЗа'
